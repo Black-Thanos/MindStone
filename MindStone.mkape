@@ -8,7 +8,7 @@ ExportFormat: raw
 Processors:
     -
         Executable: winpmem.exe
-        CommandLine: "%destinationDirectory%\\new.raw"
+        CommandLine: "%destinationDirectory%\\ram.raw"
         ExportFormat: raw
 
 ### README

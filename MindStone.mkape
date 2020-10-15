@@ -3,7 +3,7 @@ Category: Memory
 Author: Black-Thanos 
 Version: 1
 Id: de7486be-51e5-48b6-ae21-554953df6fa3
-BinaryUrl: https://github.com/Velocidex/WinPmem/releases
+BinaryUrl: https://github.com/Velocidex/WinPmem/releases/download/v4.0.rc1/winpmem_mini_x64_rc2.exe
 ExportFormat: raw
 Processors:
     -
@@ -13,9 +13,8 @@ Processors:
 
 ### README
 #
-# 1. Download winpmem_mini_x64_rc2.exe using the link above; Other versions may work, but are #untested.
+# 1. Download winpmem_mini_x64_rc2.exe using the link above.
 # 2. Rename the binary to winpmem.exe (dropping the version number) 
-# 3. Place the binary into '<KAPE_working_directory>/Modules/bin'
-#   - KAPE should now be able to find the executable at #'<KAPE_working_directory>/Modules/bin/winpmem.exe'
+# 3. Place the binary into '<KAPE_working_directory>/Modules/bin' - KAPE should now be able to find the executable at #'<KAPE_working_directory>/Modules/bin/winpmem.exe'
 # Example usage for running without Target options: 
 # .\kape.exe --msource C:\ --mdest X:\%d%m --module MindStone --gui
